@@ -1,0 +1,9 @@
+{
+  "generator-node": {
+    "promptValues": {
+      "authorName": "Sumit Agrawal",
+      "authorEmail": "gophersumit@outlook.com",
+      "authorUrl": "https://gophersumit.com"
+    }
+  }
+}

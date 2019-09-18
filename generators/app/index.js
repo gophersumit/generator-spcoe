@@ -2,13 +2,12 @@
 const Generator = require('yeoman-generator');
 const chalk = require('chalk');
 const yosay = require('yosay');
+const message = require('../lib/message')
 
 module.exports = class extends Generator {
   prompting() {
     // Have Yeoman greet the user.
-    this.log(
-      yosay(`Welcome to the sensational ${chalk.red('generator-spcoe')} generator!`)
-    );
+   message(this);
 
     const prompts = [
       {
